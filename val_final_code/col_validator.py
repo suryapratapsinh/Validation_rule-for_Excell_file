@@ -9,7 +9,7 @@ di={}
 
 # you can use the type keyword to constrain an instance to an object, array, string, number, boolean, or null
 
-def bydefault_string_schema(value, col_name):
+def bydefault_string_schema(value, col_name):         # this function is not working. it is not usable for me just ignore it.  
     # find string in which space ocure morethan one  between two words
     # find [òóôõöøōőοσоӧɵʘȯäëïüÿ',@!#$%^&*(),.?/\\]  pattern
     try:
